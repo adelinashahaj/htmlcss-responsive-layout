@@ -47,6 +47,12 @@ header.header-top{
 #strategic .col{
     margin: 1rem 0;
 }
+#partners{
+    padding-top: 20px;
+}
+#partners .card{
+    margin: 2rem 0;
+}
 @media screen and (min-width:768px) {
     .container{
         max-width: 740px;
@@ -63,6 +69,9 @@ header.header-top{
     }
     #application .card:first-child{
         width: calc((100% / 3 * 2) - 0.80rem);
+    }
+    #partners .card{
+        display: flex;
     }
 }
 @media screen and (min-width:992px) {
