@@ -56,14 +56,26 @@ header.header-top{
 #benefits{
     background-color: var(--second-color);
     padding: 2rem 0;
+    width: 100%;
 }
 #benefits .cards{
     margin-left: -1rem;
     margin-right: -1rem;
 }
+#about-us .cards{
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+#about-us{ 
+    padding: 50px 0px;
+}
+#about-us .col{
+    margin: 1rem 0;
+}
 @media screen and (min-width:768px) {
     .container{
         max-width: 740px;
+        width: 100%;
     }
     #application .cards{
         display: flex;
@@ -90,6 +102,15 @@ header.header-top{
         margin-right: 1rem;
         width: calc((100% / 2) - 2rem);
     }
+    
+    #about-us .columns{
+        display: flex;
+       
+    }
+    #about-us .col{
+        width: 50%;
+        margin: 2rem;
+    }
 }
 @media screen and (min-width:992px) {
     .container{
@@ -112,6 +133,20 @@ header.header-top{
         margin-left: 1rem;
         margin-right: 1rem;
         width: calc((100% / 3) - 2rem);
+    }
+    
+    #about-us .card{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: calc((100% / 2) - 2rem);
+    }
+    #about-us .columns{
+        display: flex;
+       
+    }
+    #about-us .col{
+        width: 50%;
+        margin: 2rem;
     }
 }
 
