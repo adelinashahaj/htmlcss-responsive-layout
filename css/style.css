@@ -40,7 +40,13 @@ header.header-top{
 .card{
     margin-bottom: 1.5rem;
 }
-
+#strategic{
+    background-color: var(--second-color);
+    padding: 50px 0px;
+}
+#strategic .col{
+    margin: 1rem 0;
+}
 @media screen and (min-width:768px) {
     .container{
         max-width: 740px;
@@ -66,6 +72,15 @@ header.header-top{
     #application .card:first-child{
         display: flex;
         justify-content: space-between;
+    }
+    #strategic .columns{
+        display: flex;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #strategic .col{
+        width: 50%;
+        margin: 2rem;
     }
 }
 
