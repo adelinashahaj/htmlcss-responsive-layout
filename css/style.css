@@ -13,6 +13,14 @@
     --first-light-color:#B5DDFF;
     --second-color:#9792E4;
 }
+main{
+    padding-top: 100px;
+}
+.debug-box{
+    height: 80px;
+    background-color: var(--first-light-color);
+    padding: 1rem;
+}
 
 header.header-top{
     background-color: var(--first-color);
@@ -29,3 +37,35 @@ header.header-top{
     justify-content: space-between;
     align-items: center;
 }
+.card{
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width:768px) {
+    .container{
+        max-width: 740px;
+    }
+    #application .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+    #application .card{
+        width: calc((100% / 3) - 1.5rem);
+        background-color: var(--first-light-color);
+    }
+    #application .card:first-child{
+        width: calc((100% / 3 * 2) - 0.80rem);
+    }
+}
+@media screen and (min-width:992px) {
+    .container{
+        max-width: 960px;
+    }
+    #application .card:first-child{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
