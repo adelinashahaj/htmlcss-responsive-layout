@@ -53,6 +53,14 @@ header.header-top{
 #partners .card{
     margin: 2rem 0;
 }
+#benefits{
+    background-color: var(--second-color);
+    padding: 2rem 0;
+}
+#benefits .cards{
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
 @media screen and (min-width:768px) {
     .container{
         max-width: 740px;
@@ -73,6 +81,15 @@ header.header-top{
     #partners .card{
         display: flex;
     }
+    #benefits .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #benefits .card{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: calc((100% / 2) - 2rem);
+    }
 }
 @media screen and (min-width:992px) {
     .container{
@@ -90,6 +107,11 @@ header.header-top{
     #strategic .col{
         width: 50%;
         margin: 2rem;
+    }
+    #benefits .card{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: calc((100% / 3) - 2rem);
     }
 }
 
