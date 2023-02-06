@@ -72,6 +72,11 @@ header.header-top{
 #about-us .col{
     margin: 1rem 0;
 }
+#free{
+    background-color: var(--second-color);
+    text-align: center;
+    padding: 2rem 0;
+}
 @media screen and (min-width:768px) {
     .container{
         max-width: 740px;
