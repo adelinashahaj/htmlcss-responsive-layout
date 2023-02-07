@@ -164,6 +164,21 @@ header.header-top{
     margin-top: 2rem;
     
 }
+#partners .info{
+    text-align: center;
+    margin-top: 1rem;
+
+}
+#partners .info h3{
+    color: var(--second-color);
+    padding-top: 1rem;
+    
+    font-size: 30px;
+}
+#partners .info p{
+    color: black;
+    
+}
 .testimonial-img{
     object-fit: cover;
     width: 200px;
