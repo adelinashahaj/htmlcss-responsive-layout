@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: 'Open Sans', sans-serif;;
+}
 .container{
     max-width: 1170px;
     margin: auto;
@@ -215,10 +218,7 @@ header.header-top{
     padding: 2rem 0;
     width: 100%;
 }
-#benefits .cards{
-    margin-left: -1rem;
-    margin-right: -1rem;
-}
+
 #benefits p{
     margin-bottom: 5rem;
 }
@@ -229,10 +229,22 @@ header.header-top{
     
 
 }
-#about-us .cards{
-    margin-left: -1rem;
-    margin-right: -1rem;
+#about-us h3{
+    color: var(--second-color);
+    font-size: 30px;
 }
+#about-us h4{
+    color: var(--second-color);
+    margin-bottom: 2rem;
+}
+#about-us a{
+     text-decoration: none;
+
+}
+#about-us p{
+    margin-top: 3rem;
+}
+
 #about-us{ 
     padding: 50px 0px;
 }
