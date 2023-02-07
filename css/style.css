@@ -288,7 +288,13 @@ header.header-top{
         margin-right: 1rem;
         width: calc((100% / 2) - 2rem);
     }
-    
+    #about-us h3{
+        color: var(--second-color);
+        font-size: 30px;
+    }
+    #about-us p{
+        margin-top: 3rem;
+    }
     #about-us .columns{
         display: flex;
        
