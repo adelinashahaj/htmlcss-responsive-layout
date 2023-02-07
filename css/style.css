@@ -73,6 +73,9 @@ header.header-top{
 .bg-color-white {
     background-color: var(--color-white);
 }
+.color-lilla{
+    color: var(--second-color);
+}
 .bg-color-lilla{
     background-color: var(--second-color);
 }
@@ -239,6 +242,7 @@ header.header-top{
 }
 #about-us a{
      text-decoration: none;
+     color: var(--color-white);
 
 }
 #about-us p{
@@ -251,10 +255,22 @@ header.header-top{
 #about-us .col{
     margin: 1rem 0;
 }
+#free h5{
+    color: var(--color-white);
+    font-size: 30px;
+}
+#free h3{
+    color: orange;
+    font-size: 50px;
+}
 #free{
     background-color: var(--second-color);
     text-align: center;
     padding: 2rem 0;
+}
+#free h6, p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 #footer-top{
     background-color: rgb(36, 36, 36);
