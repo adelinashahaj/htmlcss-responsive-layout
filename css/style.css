@@ -117,8 +117,38 @@ header.header-top{
     background-color: var(--second-color);
     padding: 50px 0px;
 }
+#strategic .col img{
+    width: 50%;
+}
 #strategic .col{
-    margin: 1rem 0;
+    margin: 2rem 0;
+    text-align: center;
+    
+}
+#strategic  .radius{
+    padding: 1rem;
+
+}
+#strategic h4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+#strategic p{
+    margin-bottom: 1rem;
+}
+#strategic .col:first-child {
+    text-align: left;
+    margin-top: 1rem;
+}
+#strategic .col:last-child{
+    margin-top: 6rem;
+    padding: 1rem;
+}
+#strategic i{
+    background-color: var(--second-color);
+    border-radius: 50px;
+    padding: 10px;
 }
 #partners{
     padding-top: 20px;
@@ -211,7 +241,7 @@ header.header-top{
     }
     #strategic .col{
         width: 50%;
-        margin: 2rem;
+        margin: 1rem;
     }
     #benefits .card{
         margin-left: 1rem;
